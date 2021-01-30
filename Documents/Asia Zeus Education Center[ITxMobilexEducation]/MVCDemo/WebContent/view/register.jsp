@@ -20,7 +20,7 @@ function verifypassword(){
 </script>
 </head>
 <body>
-	<form action="register" method="POST" onsubmit="return verifypassword()">
+	<form action="<%=request.getContextPath()%>/register" method="POST" onsubmit="return verifypassword()">
 		<table>
 			<tr>
 				<td>Name:</td>
